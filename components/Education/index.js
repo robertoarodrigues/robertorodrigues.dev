@@ -3,8 +3,18 @@ import EducationItem from './EducationItem'
 
 const degrees = [
   {
-    degree: 'Fullstack Master, DevReactJS, Power Sites',
-    subject: 'Primium Curse',
+    degree: 'Power Sites',
+    subject: 'Premium Curse',
+    institution: 'DevPleno'
+  },
+  {
+    degree: 'DevReactJS',
+    subject: 'Premium Curse',
+    institution: 'DevPleno'
+  },
+  {
+    degree: 'Fullstack Master',
+    subject: 'Premium Curse',
     institution: 'DevPleno'
   },
   {
@@ -17,7 +27,7 @@ const degrees = [
 const Education = () => {
   return(
     <div>
-      <h3 className='text-4xl font-bold text-center uppercase mt-10 mb-5 text-orange'>My Education</h3>
+      <h3 className='text-4xl font-bold text-center uppercase mt-10 mb-5 text-green'>My Education</h3>
       <div className='mx-6 md:mx-0 md:grid md:grid-cols-2 leading-none bg-white rounded-lg shadow-lg'>
         {degrees.map((degree, i) => (
           <EducationItem key={'i' + i} degree={degree}  />

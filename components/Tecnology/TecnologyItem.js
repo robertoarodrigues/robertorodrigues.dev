@@ -3,7 +3,7 @@ import React from 'react'
 const TecnologyItem = () => {
   return(
     <div>
-      <h3 className='text-4xl font-bold text-center uppercase mt-10 mb-5 text-orange'>Tecnology</h3>
+      <h3 className='text-4xl font-bold text-center uppercase mt-10 mb-5 text-green'>Tecnology</h3>
       <div className='bg-white rounded-lg shadow-lg py-12 px-8 mx-8 md:mx-0 md:px-16'>
       
       <div className='grid grid-cols-3 md:grid-cols-5 lg:grid-cols-8 gap-2 md:gap-4 lg:gap-0 lg:px-10 items-center p-1'>
