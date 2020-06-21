@@ -4,17 +4,17 @@ import EducationItem from './EducationItem'
 const degrees = [
   {
     degree: 'Power Sites',
-    subject: 'Premium Curse',
+    subject: 'Premium Course',
     institution: 'DevPleno'
   },
   {
     degree: 'DevReactJS',
-    subject: 'Premium Curse',
+    subject: 'Premium Course',
     institution: 'DevPleno'
   },
   {
     degree: 'Fullstack Master',
-    subject: 'Premium Curse',
+    subject: 'Premium Course',
     institution: 'DevPleno'
   },
   {
