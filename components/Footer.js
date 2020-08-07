@@ -4,7 +4,8 @@ const Footer = () => {
   return(
     <div>
       <p className='text-center my-8 py-4 border-t-2'>
-       This website was built during Fullstack Master classes. We used (NextJS + SSR (Server Side Rendering), TailwindCSS, PurgeCSS and Vercel (as platform))
+        This website was built during Fullstack Master classes. We used NextJS + SSR 
+        (Server Side Rendering) + Vercel (as platform)
       <br />
         You can find the source-code of this website:
         <br />
