@@ -3,6 +3,11 @@ import EducationItem from './EducationItem'
 
 const degrees = [
   {
+    degree: 'GoStack',
+    subject: 'Bootcamp',
+    institution: 'Rocketseat'
+  },
+  {
     degree: 'Power Sites',
     subject: 'Premium Course',
     institution: 'DevPleno'
